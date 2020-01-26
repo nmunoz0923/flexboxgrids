@@ -101,13 +101,20 @@ html {
   height: 100%;
 }
 
-h1 {color:white;}
+h1 {color:white;
+  padding:1%;
+  font-family: Lora;
+}
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 2em;
-  font-size: 1.25em;
   height: 100%;
+}
+
+p {
+  color:white;
+  font-size:20px;
 }
 
 .wrapper {
@@ -122,14 +129,14 @@ body {
   color: #fff;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #f16059;
+  /* background-color: #f16059; */
   height: 300px;
   display:flex;
-  width:30%;
+  width:33.3%;
   align-items:center;
-  justify-content:center;
+  font-size: 15px;
+  text-align:center;
 }
-
 
 
 
