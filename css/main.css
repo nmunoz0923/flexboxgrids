@@ -101,11 +101,6 @@ html {
   height: 100%;
 }
 
-h1 {color:white;
-  padding:1%;
-  font-family: Lora;
-}
-
 body {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 2em;
@@ -115,13 +110,21 @@ body {
 p {
   color:white;
   font-size:20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight:400
 }
+
+p span {font-weight:600}
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
-  font-weight: 700;
+  /* font-weight: 700; */
   display:flex;
   justify-content: space-between;
+}
+
+.div-1, .div-2 {
+  border-right: 0.1px solid grey;
 }
 
 .div-1, .div-2, .div-3 {
@@ -130,12 +133,15 @@ p {
   line-height: 1.5em;
   font-size: 1.6em;
   /* background-color: #f16059; */
-  height: 300px;
+  height: 200px;
   display:flex;
   width:33.3%;
   align-items:center;
   font-size: 15px;
-  text-align:center;
+  text-align:left;
+    /* border-top: 1px solid white; */
+  padding:15px;
+  /* border-bottom: 1px solid white; */
 }
 
 
